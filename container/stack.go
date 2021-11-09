@@ -38,7 +38,8 @@ func (stack *Stack)Push(keyword int,data interface{})(int,error){
 func  (stack *Stack)Pop( )(empty bool,searchNode *ListNode){
 	return stack.List.FindOneNodeByLocationAndDel(0)
 }
-////判断链表是否为：空节点
-//func (stack *Stack)IsEmpty()bool{
-//	return stack.List.IsEmpty()
-//}
+
+//判断链表是否为：空节点
+func (stack *Stack)IsEmpty()bool{
+	return stack.List.IsEmpty()
+}

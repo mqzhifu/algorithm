@@ -5,7 +5,8 @@ import "algorithm/container"
 func main()  {
 	//container.TestLinkedList()
 	//container.TestArrayList()
-	container.TestBinaryTree()
+	//container.TestBinaryTree()
+	container.TestHuffman ()
 }
 
 
