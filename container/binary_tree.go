@@ -355,7 +355,7 @@ func (binaryTree *BinaryTree)EachDeepByBreadthFirst(nodeNilFill bool)(empty bool
 		var nodeList []*ListNode
 		//每次弹出一个节点，保存，后面再把该节点的左右节点继续压到队列中
 		for{
-			isEmpty , queueNode := list.Pop(0)
+			isEmpty , queueNode := list.Pop()
 			if isEmpty{
 				break
 			}
